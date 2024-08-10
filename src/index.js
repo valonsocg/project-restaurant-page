@@ -1,4 +1,8 @@
 import "./style.css";
-import component from "./initial-page-load";
+import initialPage from "./initial-page-load";
+import createMenuPage from "./menu";
+import createAboutPage from "./about";
 
-component();
+// createMenuPage();
+// createAboutPage();
+initialPage();
